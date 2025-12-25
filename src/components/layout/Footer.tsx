@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Logo } from "@/components/Logo";
-import { Heart, Shield, Lock } from "lucide-react";
+import { Shield, Lock } from "lucide-react";
 
 const footerLinks = {
   product: [
@@ -103,7 +103,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Docyo. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground flex items-center gap-1">
-            Made with <Heart className="w-3 h-3 text-destructive" /> for better healthcare
+            Made with care for better healthcare
           </p>
           <p className="text-xs text-muted-foreground">
             ⚠️ Docyo provides health tracking tools. Always consult healthcare professionals for medical advice.

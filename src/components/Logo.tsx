@@ -25,11 +25,11 @@ export const Logo = ({ className = "", size = "md" }: LogoProps) => {
             fill="none"
             className="w-5 h-5 text-primary-foreground"
             stroke="currentColor"
-            strokeWidth="2"
+            strokeWidth="2.5"
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            <path d="M12 5v14M5 12h14" />
           </svg>
         </div>
         <div className="absolute -inset-1 gradient-primary rounded-xl opacity-30 blur-lg -z-10" />

@@ -207,7 +207,6 @@ const Dashboard = () => {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <Heart className="w-5 h-5 text-destructive" />
                 Recent Vitals
               </CardTitle>
             </CardHeader>

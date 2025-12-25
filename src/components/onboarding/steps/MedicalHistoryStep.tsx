@@ -166,7 +166,6 @@ export const MedicalHistoryStep = ({ userId, onNext, onBack }: MedicalHistorySte
         {/* Blood Type */}
         <div>
           <Label className="flex items-center gap-2">
-            <Heart className="w-4 h-4 text-destructive" />
             Blood Type
           </Label>
           <Select
@@ -189,7 +188,6 @@ export const MedicalHistoryStep = ({ userId, onNext, onBack }: MedicalHistorySte
         {/* Chronic Illnesses */}
         <div>
           <Label className="flex items-center gap-2">
-            <Heart className="w-4 h-4 text-primary" />
             Chronic Illnesses
           </Label>
           <div className="flex gap-2 mt-1.5">

@@ -8,7 +8,7 @@ import { Logo } from "@/components/Logo";
 const navItems = [
   { name: "Home", href: "/" },
   { name: "Features", href: "/#features" },
-  { name: "Find Doctors", href: "/#doctors" },
+  { name: "Find Doctors", href: "/find-doctors" },
   { name: "About", href: "/#about" },
 ];
 
